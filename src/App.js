@@ -1,15 +1,13 @@
 import styles from './App.module.sass';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Scoreboard from './components/Scoreboard';
-import CardScreen from './components/CardScreen';
+import Game from './components/Game';
 
 function App() {
   return (
     <div className={styles.app}>
       <Header />
-      <Scoreboard />
-      <CardScreen />
+      <Game />
       <Footer />
     </div>
   );
